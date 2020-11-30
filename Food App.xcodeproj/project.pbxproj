@@ -11,6 +11,8 @@
 		EDB8043B25602FA5003FA2E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8043A25602FA5003FA2E4 /* ContentView.swift */; };
 		EDB8043D25602FA6003FA2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB8043C25602FA6003FA2E4 /* Assets.xcassets */; };
 		EDB8044025602FA6003FA2E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB8043F25602FA6003FA2E4 /* Preview Assets.xcassets */; };
+		EDB8044C25603445003FA2E4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8044B25603445003FA2E4 /* Home.swift */; };
+		EDB8045025603664003FA2E4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8044F25603664003FA2E4 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EDB8043C25602FA6003FA2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB8043F25602FA6003FA2E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDB8044125602FA6003FA2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB8044B25603445003FA2E4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EDB8044F25603664003FA2E4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,9 @@
 		EDB8043725602FA5003FA2E4 /* Food App */ = {
 			isa = PBXGroup;
 			children = (
+				EDB8044A25603432003FA2E4 /* Model */,
+				EDB8044925603426003FA2E4 /* View */,
+				EDB804482560341C003FA2E4 /* ViewModel */,
 				EDB8043825602FA5003FA2E4 /* Food_AppApp.swift */,
 				EDB8043A25602FA5003FA2E4 /* ContentView.swift */,
 				EDB8043C25602FA6003FA2E4 /* Assets.xcassets */,
@@ -67,6 +74,29 @@
 				EDB8043F25602FA6003FA2E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDB804482560341C003FA2E4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8044F25603664003FA2E4 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EDB8044925603426003FA2E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8044B25603445003FA2E4 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDB8044A25603432003FA2E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB8043B25602FA5003FA2E4 /* ContentView.swift in Sources */,
+				EDB8044C25603445003FA2E4 /* Home.swift in Sources */,
 				EDB8043925602FA5003FA2E4 /* Food_AppApp.swift in Sources */,
+				EDB8045025603664003FA2E4 /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Food App/Preview Content\"";
+				DEVELOPMENT_TEAM = A343Q2S8H5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Food App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Food App/Preview Content\"";
+				DEVELOPMENT_TEAM = A343Q2S8H5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Food App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
